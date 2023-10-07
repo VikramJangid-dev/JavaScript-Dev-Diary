@@ -8,7 +8,7 @@ Tasks :
 
 
 Notes : - Create "index.html" file, link script file open in live server 
-        - inpect html file ko open console
+        - html file ko inspect kro or console open kro
 
 1. JavaScript (JS):
    - JS is a scripting language used in web development.
