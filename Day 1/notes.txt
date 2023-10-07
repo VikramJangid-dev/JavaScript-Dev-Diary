@@ -1,0 +1,50 @@
+Day 1 Notes: Basics of JavaScript
+
+Tasks : 
+1. What is js? ✅
+2. console.log() ✅
+3. alert() ✅
+4. prompt() ✅
+
+
+Notes : - Create "index.html" file, link script file open in live server 
+        - inpect html file ko open console
+
+1. JavaScript (JS):
+   - JS is a scripting language used in web development.
+   - It employs an interpreter to execute code line by line.
+
+2. Why Use JavaScript:
+   - JS is used to add functionality to websites and web applications.
+   - It enhances user interactions and dynamic behavior on web pages.
+
+3. Usage of JavaScript:
+   - Create a JavaScript file with a .js extension.
+   - Link the JavaScript file to an HTML file by placing the <script> tag before the closing </body> tag.
+
+4. `alert()` :
+        --> `alert()` is a built-in JS function used to display pop-up alert messages.
+        --> It is often used for simple user notifications.
+
+5. `prompt()`:
+    --> The `prompt()` function is a built-in JavaScript method that displays a dialog box to the user, prompting them to enter input. It typically includes a message and an input field.
+   
+    --> Usage: You can use `prompt()` to collect user input in a web application. It returns the text entered by the user as a string or `null` if the user cancels the prompt.
+
+
+6. `console.log()`, `console.warn()`, and `console.error()`:
+   
+    --> These are part of the `console` object in JavaScript and are used for displaying messages and debugging information in the browser's developer console.
+   
+   --> `console.log()`:
+        
+         -> Usage: Used to log general information or messages to the console.
+
+   --> `console.warn()`:
+        
+         -> Usage: Used to log warning messages to the console
+
+   --> `console.error()`:
+        
+         -> Usage: used for logging error messages to the browser's developer console. It is particularly useful for identifying and diagnosing errors and issues in your JavaScript code.
+    
