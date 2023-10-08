@@ -14,4 +14,4 @@ Day - 2
 6. Perimetive and Reference Value 
 7. What is an Array and how create  
 8. What is an objects and how create
-
+9. How copy Reference type Value (Spread operator)? 
