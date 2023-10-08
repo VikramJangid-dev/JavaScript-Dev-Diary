@@ -1,0 +1,86 @@
+Day 2 Notes: Basics of JavaScript
+
+Tasks : 
+1. Keywords & Variables ✅
+2. var ✅
+3. let ✅
+4. const ✅
+5. Data types ✅
+6. Perimetive and Reference Value ✅ 
+7. What is an Array and how create  ✅
+8. What is an objects and how create ✅
+9. How copy Reference type Value ? ✅
+
+1. Keywords & Variables
+
+    --> Keywords : Reserved words in js like false, ture, var , for, etc. with predefined meanings.
+     
+    --> Variables : In js data can be stored and managed throughout a program's lifecycle using variables
+        - Variables are used to store data.
+        - Use "var," "let," or "const" to declare variables.
+        - syntax : key_word variable__name = value;
+    
+
+2. var :  
+    -> used to declare variable
+    -> Variables declared with "var" can be re-declared.
+    -> it is function-level scope
+
+
+3. let : 
+    -> used to declare variable
+    -> Variables declared with "let" cannot be re-declared in same scope.
+    -> it is block-level scope ( {braces} k andar hi use kr skte )
+
+
+4. const :
+    -> used to declare constants
+    -> variable can't be changed once set
+    -> it is block-level scope ( {braces} k andar hi use kr skte )
+
+
+5. Data types 
+   -> JavaScript has primitive and reference data types.
+   -> Primitive types include numbers, strings, booleans, null, undefined, and symbols.
+   -> Reference types include objects, arrays, functions, and dates.
+
+
+6. Primitive and Reference Values 
+    -> Perimitive Type value  (numbers, strings, booleans, null, undefined, and symbols )
+    -> Primitive values are stored directly in variables.
+
+    -> Reference Type value ( function() , array[] , objects{} )
+    -> Reference values are stored as references to their memory locations
+    -> when you create a reference value and assign it to a variable, the variable actually holds a 
+        reference to the memory location where the object is stored, rather than the object itself.
+
+
+6. Array []
+    -> It is data structure that stores a collection of items or Values
+    -> Syntax : key_word array_name = [item1, item2 , itemN......] (key_word : var, let, const)
+    -> array can hold a different data types like string , numbers , boolean , object ,function and array.
+        
+
+8. Object {}
+   - An object is a collection of key-value pairs.
+   - Create an object using curly braces: `let myObj = { key1: 'value1', key2: 'value2' };`
+    
+    --> Syntax : key_word object_name = 
+    { 
+        property1 : "value1" 
+        property2 : "value2" 
+        propertyN : "valueN" 
+    }
+
+
+9.Copy Reference type value Using Spread operator "..." 
+    -> Spread Operator  " ... " (three dots)
+    -> Synatax : let arr = (...arrTocopy)
+    -> spread operator (`...`) copy(shallow copy) a reference type value.
+    -> Be aware that these methods create shallow copies, so nested objects may still reference the same memory.
+
+*[NOTE] 
+The spread operator (`...`), or other copying techniques to copy an object, they only create a new object at the top level. If the original object contains nested objects (objects within objects), these nested objects are not deep-copied; instead, they continue to reference the same memory locations in both the original and copied objects.
+
+
+==> typeof(); --> it is a method to check type of data or variable
