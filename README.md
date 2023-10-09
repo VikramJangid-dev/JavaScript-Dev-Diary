@@ -15,3 +15,14 @@ Day - 2
 7. What is an Array and how create  
 8. What is an objects and how create
 9. How copy Reference type Value ? (using spread operator)
+
+Day - 3
+1. Conditionals Statements 
+2. Truthy & falsy Values 
+3. Loops 
+    -> for
+    -> while
+    -> foreach()
+    -> forof
+    -> forin
+5. Functions & types 
