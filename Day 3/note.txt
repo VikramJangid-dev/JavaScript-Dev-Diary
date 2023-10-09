@@ -1,0 +1,102 @@
+Day 3 Notes: Basics of JavaScript
+
+Tasks:
+1. Conditionals Statements ✅
+    -> if  
+    -> if else 
+    -> else if ladder 
+    -> Ternary operator (?  :) 
+    -> switch Statements 
+
+2. Truthy & falsy Values ✅
+
+3. Loops ✅
+    -> for
+    -> while
+    -> foreach()
+    -> forof
+    -> forin 
+
+4. Functions & types ✅
+
+======================================================================================
+
+1. Conditional Statements:
+   - `if` statements allow you to execute code when a condition is true.
+   - `if else` statements provide an alternative code path when the initial condition is false.
+   - `else if` ladder allows you to check multiple conditions sequentially.
+   - The ternary operator (`? :`) is a concise way to write simple conditional expressions.
+   - `switch` statements are used for multi-case branching based on a single value.
+
+2. Truthy & Falsy Values:
+   - JavaScript treats certain values as truthy (evaluates to `true`) and others as falsy (evaluates to `false`).
+   - Falsy values include `false`, `0`, `''` (empty string), `null`, `undefined`, and `NaN`.
+   - Any value not in the falsy list is considered truthy.
+
+3.Loops :
+
+        1. for Loop
+            - `for` loops are used for iterating a specific number of times, often with a counter.
+                Syntax : for(start ; condition ; change){ code }
+
+        2. while loop
+            - `while` loops execute code while a specified condition remains true.
+                Syntax : while(condition ){ code }
+
+        3. foreach
+            - `forEach()` is a method for iterating over the elements of an array.
+                Syntax : array.foreach(function(value,index){  code })
+
+        4. forof
+            - `for...of` is used to iterate over iterable objects like arrays and strings.
+                Syntax : for(let value of arrayORstring){ code }
+
+        5. forin
+            - `for...in` is used for iterating over object properties, not recommended for arrays.
+                Syntax : for(let value in object){ code }
+
+
+4. Functions
+    - Functions are blocks of code that can be called and reused.
+    - JavaScript has dynamic typing, meaning variables can change types during runtime.
+    - Common data types include numbers, strings, booleans, objects, arrays, functions, and undefined.
+
+-> Function declaration
+    --> function(parameter1,para2,paraN...){    code to excute     } 
+
+-> function call
+    --> fun_name(Argu1,arguN...);
+
+==> Types of funtions <==
+
+1. function Statements
+   - Function declaration defines a named function with parameters.
+    -->syntax : function fun_name(){ }
+
+2. function expression
+   - Function expression assigns a function to a variable.
+    -->syntax : var a  = function(){ }
+
+3. Anynomoues function 
+    - it is callback function without name
+    --> syntax : function(){ }
+    -> without name, use as call back functions
+
+4. Arrow function
+   - Arrow functions are a concise way to write anonymous functions.
+   - syntax : var variable = () => { code }
+
+    -> arrow without parameters
+        --> var fun1 = () => {  code  }
+
+    -> arrow with parameters
+        --> var fun2 = (val) => {   code   }
+        --> var fun2 = ( var1, val2 ) => {}
+        --> var fun2 = val => {} - without brackets if function have single paramter
+        --> var fun2 = val => console.log("this is fution with single statement);
+
+5. ("arguments") in functions
+    -> it is a special variable that is automatically available inside the body of a function. It allows you to access the arguments that were passed to the function, even if the function was not defined with named parameters.
+    -> it has indexed elements but it is not an actual array  
+
+
