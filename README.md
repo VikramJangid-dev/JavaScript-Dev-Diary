@@ -25,4 +25,10 @@ Day - 3
     -> foreach()
     -> forof
     -> forin
-5. Functions & types 
+5. Functions & types
+
+Day - 4 
+1. Array - Basics
+2. Array Methods
+3. "Array" key word
+4. Object - Basics
