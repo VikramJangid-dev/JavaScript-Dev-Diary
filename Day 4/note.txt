@@ -1,0 +1,65 @@
+Day 3 Notes: Basics of JavaScript
+
+Tasks : 
+1. Array & its Methods ✅
+2. Object Basics ✅ 
+
+-----------------------------------------------------------------------------------------------------------
+
+1. Array
+    -> An array is a data structure that allows you to store and organize multiple values in a single variable.
+    -> Arrays can hold various data types, including numbers, strings, objects, and even other arrays. Here's an overview of arrays in JavaScript.
+    -> Array mai different type ka data store kr skte haain
+
+-> Syntax  :  datatype arr_name = [val1, val2,...valn];
+
+--> Access Array
+    -> Array_name[index_number];
+
+--> Use Method
+    -> array.method();
+
+--> Array Methods
+    1. pop() - remove item from last
+    2. push(val) - add item at last
+    3. shift() - remove item from beginning
+    4. unshift() - add item at beginning
+    5. splice(index,no_of_items_remove) - remove items from between
+
+--> Iterate through array using loops 
+    1. for loops
+    2. foreach()
+
+-----------------------------------------------------------------------------------------------------------
+
+2. Object
+
+    -> Objects are a fundamental data structure that allows to store and organize data as key-value      pairs. 
+    -> Each key is a string (or symbol) and each value can be of any data type, including other objects or  
+        functions. Objects are created using curly braces {}.
+    -> Real-world entities.
+    
+    -> Syntax : data_type object_name = { property : "value" }
+
+    Eg : 
+    let myObject = 
+    {   name : "Kaaluu",
+        fun1: function(){
+        console.log("this is a function in object")
+    },
+    };
+    
+    -> Access Object property using dot operator
+        Syntax :  object_name.property_name
+        Eg  : myObject.name
+
+    -> Access Object property using square brackets : 
+        Syntax :  obj["property_name"]
+        Eg : myObject["name"] 
+
+    -> Modifying object property :
+        Syntax : object_name.property_name = "change"
+        Eg : myObject.name = "JavaScript"
+
+
+
