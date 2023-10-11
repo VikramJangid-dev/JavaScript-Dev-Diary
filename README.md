@@ -34,3 +34,9 @@ Day - 4
 4. Object - Basics
 5. Object - Methods
 6. Object - destructure
+
+Day - 5 DOM
+1. Basics of the Document Object Model (DOM), Window, and Directory
+2. Selection of HTML Elements using the DOM
+3. Manipulating HTML Content with the DOM
+4. Adding Style to HTML Elements with the DOM
