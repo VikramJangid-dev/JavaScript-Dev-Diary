@@ -32,3 +32,5 @@ Day - 4
 2. Array Methods
 3. "Array" key word
 4. Object - Basics
+5. Object - Methods
+6. Object - destructure
