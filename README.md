@@ -41,6 +41,13 @@ Day - 5 DOM
 3. Manipulating HTML Content with the DOM
 4. Adding Style to HTML Elements with the DOM
 5. Add or Remove Classes from HTML element [classList] 
-6. Navigating from one element to another 
+6. Navigating from one element to another
 7. Create or Add Elements in DOM using JS [createElement()] 
 8. Remove Elements from HTML [remove()] 
+
+Day - 6 DOM 
+1. Event listners
+2. Project-1 : Color Scheme changer Projects
+
+
+
