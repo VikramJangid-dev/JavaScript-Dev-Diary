@@ -1,0 +1,147 @@
+Day - 5 Basic Of DOM (Short Notes)
+
+Task: 
+1. Selectors ✅
+2. Change Content in HTML ✅
+3. Manipulating Attributes ✅
+4. Change Style in HTML ✅  
+5. Add or Remove Classes from HTML element [classList] ✅
+6. Navigating from one element to another ✅
+7. Create or Add Elements in DOM using JS [createElement()] ✅
+8. Remove Elements from HTML [remove()] ✅
+
+   
+                                    DOM - Document Object Model
+
+1. Selectors :
+
+    -> getElementById - Selct element using id
+
+    -> getElementsByClassName  - Select element using class_name
+        - HtmlCollection[] -> if you want to work on it just convert it to Array.from("element_name")
+    
+    -> getElementsByTagName - Select using tag name like h1, h2, div etc .
+        
+
+-> Query Selector :
+ 
+    syntax : document.queryselector(".class_name" , "#id_name" , "tagname");
+
+        1.querySelector()
+            -> select first element appear or occuer in html page
+            -> show Sigle element as object with htmlcollection property
+
+        2.querySelctorAll();
+            -> select all elements with same tag or class name
+            -> show All elements as HtmlCollection 
+            -> NodeList[] -> access using forEach()
+
+        ** Select multiple class or elements like CSS
+            -> document.querySelector(".parentclas .childclass #child1")
+    
+
+2. Manipulating Attributes : 
+        - Changing or replacing element attributes, such as src, id, class, alt, etc.
+
+    -> getAttribute("attribute_name") 
+
+    -> getAttribute([type = "attribute_name"]) 
+
+    -> setAttribute("attribute_name", "new_value") 
+
+
+3.  Manipulate HTML File or Content
+
+    -> innerHTML: HTML text with tags that can be modified.
+    -> innerText: Visible text displayed on the screen that can be manipulated.
+    -> textContent: Text in HTML with new lines and also visible when 'display: none' is set.
+                 all text inside an element,even hidden text also visible
+
+
+
+4. Manipulating Style of Elements (Change Style) :
+
+    1. Using 'style' object.
+    2. Using class to add style to elements (classList).
+
+        Syntax : element.style.properties = "value"
+
+        Example:
+            let heading = document.querySelector('.name');
+            heading.style.color = "orange";
+            heading.style.backgroundColor = "green";
+
+
+5. Add  or Remove Class from HTML element
+    - You can add or remove CSS Classes
+
+        Synatx: elem.ClassList.action("class_name")
+
+        Example : 
+        - Adding a class
+            heading.classList.add('newcolor'); 
+
+        - Remove a class
+            heading.classList.remove('newbgcolor');
+
+        - Check whether a class present or not
+            heading.classList.contains('newcolor');
+
+        - if a class is present than remove it, else add that class
+            heading.classList.toggle('newbgcolor');
+
+
+6. Navigation : navigate from one elemnt to other 
+
+    1. parentElments --> display or navigate to parent of child element
+    2. children --> show and navigate to children of parent element/ access using indexValue
+    3. previousElementsibling / nextElmentsibling --> show or navigate sibling next and previous of specific elemnts
+    4. childElementCount --> show no of children in parent elemnts
+
+Example:
+    
+    let box = document.querySelector('.box');
+    console.log(box.parentElement);
+    console.log(box.children);
+    console.log(box.childElementCount);
+    console.log(box.previousElementsibling);
+
+
+7. Create or Add Elements in DOM using JS :
+
+-> Creating new elements and adding them to the HTML page.
+
+    Syntax : document.createElement("elem_name")
+
+    Example :   let clickme = document.createElement('button');
+                clickme.innerHTML = "Click Me!";
+
+-> Insert or Add Elements to the HTML Page:
+    Methods :
+        1. appendChild(element_name)
+        2. append(element_name, content) [Mostly use]
+        3. prepend(element_name)
+        4. insertAdjacentElement(position, element_name)
+        
+    Position : 
+        1.beforebegin
+        2.afterbegin
+        3.beforeend
+        4.afterend
+
+Example : 
+    box.appendChild(clickme);
+    smallbox1.append(" lorem5 ncisnvsni incsici ", smallbtn);
+    box.prepend(clickme);
+    smallbox2.insertAdjacentElement("beforebegin", clickme);
+
+
+8. Remove Elements from HTML :
+
+Remove Elements : 
+   1. parent.removeChild(element_name) - Remove a child from its parent.
+   2. element_name.remove() - Directly delete an element.
+
+Example : 
+    smallbox1.removeChild(smallbtn);
+    clickme.remove();
